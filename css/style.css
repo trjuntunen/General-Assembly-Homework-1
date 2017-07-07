@@ -1,0 +1,222 @@
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	font-family: 'Raleway';
+	margin: 0;
+	text-align: center;
+	font-weight: 600;
+	color: #44343E;
+	position: relative;
+}
+
+.articlePic {
+	height: 300px;
+	width: 350px;
+}
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+p {
+	font-weight: 400;
+	font-size: 15px;
+	cursor: default;
+}
+
+i:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 1px 1px;
+	transition: box-shadow 0.5s;
+}
+
+button:hover {
+	background-color: #44343E;
+	color: #CFF2F5;
+	cursor: pointer;
+}
+
+nav {
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+}
+
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+ol {
+	list-style-type: none;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+li {
+	display: inline-block;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #7B98AA;
+}
+
+li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+.section1 {
+	display: flex;
+	margin-bottom: 10%;
+	align-items: center;
+  justify-content: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section {
+	height: auto;
+	width: 100%;
+	background-color: #CFF2F5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section p {
+	margin-left: 25%;
+	margin-right: 25%;
+	line-height: 25px;
+	padding: 10px;
+}
+
+article p {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.section2 {
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.centerSection {
+	padding: 30px;
+}
+
+.pictures {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+hr {
+	border: 1px solid black;
+}
+
+input {
+	height: 30px;
+	width: 220px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 10px 20px 40px 20px;
+}
+
+.fontAwesomeIcons {
+	display: block;
+	padding: 25px;
+}
+
+i {
+	padding: 15px;
+}
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+header {
+	background-image: url('../images/home_header_bg.jpg');
+	background-attachment: fixed;
+	height: 500px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+article h4 {
+	margin-bottom: 35px;
+}
+
+header h1 {
+	font-size: 37px;
+	color: white;
+	min-width: 0;
+	letter-spacing: 4px;
+}
+
+header h2 {
+	color: white;
+	letter-spacing: 4px;
+	word-spacing: 10px;
+}
+
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+}
+
+span img:hover {
+	opacity: 0.5;
+}
+
+/*-----------------------------------
+Buttons
+------------------------------------------- */
+
+button {
+	height: 35px;
+	width: 150px;
+	background-color: transparent;
+	border: 2px solid #44343E;;
+	font-weight: 600;
+	font-size: 13px;
+	color: #44343E;
+	text-transform: uppercase;
+}
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+
+footer {
+	background-color: #CFF2F5;
+	display: block;
+	height: 10%;
+	bottom: 0;
+}
